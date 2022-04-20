@@ -1,0 +1,13 @@
+/*
+Cores Padrões
+Color 1: #170B30
+Color 2: #C64FFF
+Color 3: #7B3FFF
+*/
+body{
+    margin: 0;
+    background-color: #170B30;
+}
+h1{
+    color: #7b3fff;
+}
