@@ -5,9 +5,22 @@ Color 2: #C64FFF
 Color 3: #7B3FFF
 */
 body{
-    margin: 0;
+    margin: 20px;
     background-color: #170B30;
 }
-h1{
-    color: #7b3fff;
+.container{
+    display: flex;
+    height: 500px;
+    margin-top: 85px;
+    justify-content:center;
+    align-items:center;
+}
+.container .appform{
+    width: 250px;
+    height: 300px;
+    background-color: #FFF;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 15px 15px 15px 15px;
 }
