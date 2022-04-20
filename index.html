@@ -13,31 +13,38 @@
 
     <div class="container">
 
+
         <div class="appform" id="appform">
-
-          
-            <div class="inputsform">
-                <input type="text" value="usuario" id="user"/>
-            </div>
-
-
-            <div class="inputsform">
-                <input type="password" value="password" id="passwd"/>
+            <div class="titleform">
+                <h1>Acesso Restrito</h1>
             </div>
         
+            <label class="LabelInputs">Usuário:</label>
+            <div class="inputsform">
+                <input class="input type="text" value="" id="user" placeholder="Usuário"/>
+            </div>
+
+            <label class="LabelInputs">Senha:</label>
+            <div class="inputsform">
+                <input  class="input" type="password" value="" id="passwd" placeholder="Senha"/>
+            </div>
+        
+
+            <div id="msg_result" class="msg_result"></div>
             <div class="separator"></div>
 
-
             <div class="inputsform buttonDV">
-                <button>Acessar</button>
+                <input id="submit" class="buttonForm" type="button" value="Acessar">   
             </div>
+
+            <div class="separator"></div>
 
         </div>
 
+
     </div>
 
-
+    <script src="static/js/jquery-3.6.0.min.js"></script>
     <script src="static/js/app.js"></script>
 </body>
-
 </html>

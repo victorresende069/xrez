@@ -11,9 +11,9 @@ body{
 .container{
     display: flex;
     height: 500px;
-    margin-top: 85px;
-    justify-content:center;
-    align-items:center;
+    margin-top: 35px;
+    justify-content: center;
+    align-items: center;
 }
 .container .appform{
     width: 250px;
@@ -26,11 +26,21 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    box-shadow: 0 0 4em 1px #000000;
+    flex-direction: column;
+}
+.titleform{
+    margin:auto;
+}
+.titleform h1{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: cursive;
 }
 .container .inputsform{
     margin-top:50px;   
-    padding: 7px;   
-    margin: 10px;
+    padding: 2px;   
+    margin: 5px;
     border: 1px solid gray;
     border-radius: 7px 7px 7px 7px;
     width: 100%;
@@ -39,8 +49,53 @@ body{
 .buttonDV{
     background-color: #000;
     bottom: 50px;
+    text-align: center;
 }
 .separator{
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    
+}
+.buttonForm{
+    background-color: transparent;
+    color: white;
+    width: 200px;
+    height: 30px;
+    border: 0px solid transparent;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.buttonForm:hover{
+    color: #000;
+}
+.buttonDV:hover{
+    background-color: #7B3FFF;
+}
+.input{
+    background-color: transparent;
+    border:  transparent;
+    width: 215px;
+    height: 25px;
+    border:  0px solid;
+}
+input:focus{
+    outline: none;
+}
+
+.LabelInputs{
+    font-size: 12px;
+    font-family: monospace;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.msg_result{
+    font-size: 12px;
+    font-family: monospace;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: red;
 }
