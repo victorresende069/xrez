@@ -23,4 +23,24 @@ body{
     padding: 10px;
     font-size: 18px;
     border-radius: 15px 15px 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.container .inputsform{
+    margin-top:50px;   
+    padding: 7px;   
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 7px 7px 7px 7px;
+    width: 100%;
+    height: 25px;
+}
+.buttonDV{
+    background-color: #000;
+    bottom: 50px;
+}
+.separator{
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
